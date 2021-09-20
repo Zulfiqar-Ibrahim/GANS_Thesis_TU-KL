@@ -33,7 +33,7 @@ After this step, we use OpenCV findContour() function to get the contour of wate
 We have the cropped images which fulfill our demands.
 
 <p align="center">
-  <img align="center" src="Images/1_aufnahme1_croped_bl_1.jpg" width="600" height="600">
+  <img align="center" src="Images/1_aufnahme1_croped_bl_1.jpg" width="300" height="300">
 </p>
 
 
