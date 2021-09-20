@@ -7,4 +7,12 @@ Now, we are aiming to use Generative Adversarial Networks (GAN), a Deep learning
 
 In Kallstatd, Germany, We have visited the local apple orchard farm where we collected the videos through our robot. The ZED depth stereo cameras were used for this tasks. My task was then to design and develop pipeline using OpenCV and ZED toolkit which will extract images of focused objects (apple trees) from .svo files. ZED depth cameras have played huge role for the identification of such area within a frame. 
 
+In this pipeline, first we have resized the frame width and height according to our need than we use Watershed technique for the segmentation since there are many false contours in Binary images.The watershed algorithm is a classic algorithm used for segmentation and is especially useful when extracting touching or overlapping objects in images, such as the coins in the figure above.Using traditional image processing methods such as thresholding and contour detection, we would be unable to extract each individual coin from the image — but by leveraging the watershed algorithm, we are able to detect and extract each coin without a problem.When utilizing the watershed algorithm we must start with user-defined markers. These markers can be either manually defined via point-and-click, or we can automatically or heuristically define them using methods such as thresholding and/or morphological operations.
+
+Based on these markers, the watershed algorithm treats pixels in our input image as local elevation (called a topography) — the method “floods” valleys, starting from the markers and moving outwards, until the valleys of different markers meet each other. In order to obtain an accurate watershed segmentation, the markers must be correctly placed.
+
+
+<p align="center">
+  <img align="center" src="Images/watershed0.jpg">
+</p>
 
