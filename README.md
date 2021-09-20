@@ -22,4 +22,4 @@ The above frame is result of watershed algorithm on binary image that already co
   <img align="center" src="Images/final_image1.jpg" width="600" height="600">
 </p>
 
-This is the final image after watershed and segmentation process. As you can see closely that even the leaves are properly separated. 
+This is the final image after watershed and segmentation processes. As you can see closely that even the leaves are properly separated from background. This is necessary in image generation through GANs because GANs must observe important portion of image in order to regenerate the it.
