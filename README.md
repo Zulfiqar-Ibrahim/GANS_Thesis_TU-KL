@@ -13,6 +13,6 @@ Based on these markers, the watershed algorithm treats pixels in our input image
 
 
 <p align="center">
-  <img align="center" src="Images/watershed0.jpg">
+  <img align="center" src="Images/watershed0.jpg" width="300" height="300">
 </p>
 
