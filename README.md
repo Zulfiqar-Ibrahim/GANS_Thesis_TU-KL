@@ -13,6 +13,13 @@ Based on these markers, the watershed algorithm treats pixels in our input image
 
 
 <p align="center">
-  <img align="center" src="Images/watershed0.jpg" width="300" height="300">
+  <img align="center" src="Images/watershed0.jpg" width="400" height="400">
 </p>
 
+The above frame is result of watershed algorithm on binary image that already contains depth information. Watershed allows to further enhance the boundary between background and foreground. Once the clear distinction between back/for ground is established we then moved to segmentation. 
+
+<p align="center">
+  <img align="center" src="Images/final_image1.jpg" width="300" height="300">
+</p>
+
+This is the final image after watershed and segmentation process. As you can see closely that even the leaves are properly separated. 
