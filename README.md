@@ -13,13 +13,13 @@ Based on these markers, the watershed algorithm treats pixels in our input image
 
 
 <p align="center">
-  <img align="center" src="Images/watershed0.jpg" width="800" height="600">
+  <img align="center" src="Images/watershed0.jpg" width="300" height="300">
 </p>
 
 The above frame is result of watershed algorithm on binary image that already contains depth information. Watershed allows to further enhance the boundary between background and foreground. Once the clear distinction between back/for ground is established we then moved to segmentation. 
 
 <p align="center">
-  <img align="center" src="Images/final_image1.jpg" width="800" height="600">
+  <img align="center" src="Images/final_image1.jpg" width="300" height="300">
 </p>
 
 This is the final image after watershed and segmentation processes. As you can see closely that even the leaves are properly separated from background. This is necessary in image generation through GANs because GANs must observe important portion of image in order to regenerate the it.
@@ -27,7 +27,7 @@ This is the final image after watershed and segmentation processes. As you can s
 After this step, we use OpenCV findContour() function to get the contour of watershed's image and compute the center of largest contour. By using this center we generate Rectangle around the contour. This rectangle is then used to crop the portion out of the raw frames from videos.
 
 <p align="center">
-  <img align="center" src="Images/1_aufnahme1_croped_bl_0.jpg" width="800" height="600">
+  <img align="center" src="Images/1_aufnahme1_croped_bl_0.jpg" width="300" height="300">
 </p>
 
 We have the cropped images which fulfill our demands.
