@@ -23,3 +23,17 @@ The above frame is result of watershed algorithm on binary image that already co
 </p>
 
 This is the final image after watershed and segmentation processes. As you can see closely that even the leaves are properly separated from background. This is necessary in image generation through GANs because GANs must observe important portion of image in order to regenerate the it.
+
+After this step, we use OpenCV findContour() function to get the contour of watershed's image and compute the center of largest contour. By using this center we generate Rectangle around the contour. This rectangle is then used to crop the portion out of the raw frames from videos.
+
+<p align="center">
+  <img align="center" src="Images/1_aufnahme1_croped_bl_0.jpg" width="600" height="600">
+</p>
+
+We have the cropped images which fulfill our demands.
+
+<p align="center">
+  <img align="center" src="Images/1_aufnahme1_croped_bl_1.jpg" width="600" height="600">
+</p>
+
+
