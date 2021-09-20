@@ -3,4 +3,8 @@ I am a student of Masters in Intelligent System in TU Kaiserslautern. This repo 
 
 Now, we are aiming to use Generative Adversarial Networks (GAN), a Deep learning approach to create an infinite amount of data with some variation. This task requires a deep understanding of such networks and the Maths behind them. There are many state-of-the-art GANs available in the market which can be used to fulfill our purpose. 
 
+## Data Extraction Pipeline
+
+In Kallstatd, Germany, We have visited the local apple orchard farm where we collected the videos through our robot. The ZED depth stereo cameras were used for this tasks. My task was then to design and develop pipeline using OpenCV and ZED toolkit which will extract images of focused objects (apple trees) from .svo files. ZED depth cameras have played huge role for the identification of such area within a frame. 
+
 
