@@ -111,7 +111,7 @@ robot vehicle.
 </p>
 ## cycle-Consistent Adversarial Networks with imageto-image Translation
 
-The broader perspective of this work is to facilitate autonomous vehicular machines to
+The broader perspective of this work is to facilitate the autonomous vehicular machines to
 perform better machine learning-related tasks in the field of agriculture. However, For
 all the machine learning-related tasks, dataset plays a cerebral role, and the collection of
 agriculture-based data has many challenges. Teams must be sent on a field trip for the
