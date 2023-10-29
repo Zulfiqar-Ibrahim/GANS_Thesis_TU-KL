@@ -36,6 +36,8 @@ We have the cropped images which fulfill our demands.
   <img align="center" src="Images/1_aufnahme1_croped_bl_1.jpg" width="300" height="300">
 </p>
 
+## Abstract
+
 Precision farming has observed tremendous impacts in the field of agriculture. Farmers
 are trying to exploit these latest A.I and robotic based technologies for increase in the
 crop yield. Many companies are competing each other for autonomous vehicular robots
@@ -68,5 +70,23 @@ view angle. This allows both datasets to be semantically similar. Several experi
 have been performed with varied environments in synthetic data and an inference score
 is calculated for the evaluation of the final results. The trained model of cyclic GANs
 can generate countless images apple orchard which can be used as training data for other
-agriculture-based machine learning tasks
+agriculture-based machine learning tasks.
+
+## Creation of 3D Dataset
+This has been established that under observation GAN architecture requires two datasets
+that belong to two domains. One domain can be addressed as a target domain that
+contains real segmented images of apple trees and the second domain can be addressed as
+a source domain that contains synthetic data designed in Unreal Engine
+
+<p align="center">
+  <img align="center" src="Images/ScreenShot00000" width="300" height="300">
+</p>
+
+<p align="center">
+  <img align="center" src="Images/ScreenShot00001" width="300" height="300">
+</p>
+
+<p align="center">
+  <img align="center" src="Images/ScreenShot00002" width="300" height="300">
+</p>
 
