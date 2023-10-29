@@ -109,3 +109,21 @@ robot vehicle.
 <p align="center">
   <img align="center" src="Images/Ue_1_real_1.jpg" width="300" height="200">
 </p>
+## cycle-Consistent Adversarial Networks with imageto-image Translation
+
+The broader perspective of this work is to facilitate autonomous vehicular machines to
+perform better machine learning-related tasks in the field of agriculture. However, For
+all the machine learning-related tasks, dataset plays a cerebral role, and the collection of
+agriculture-based data has many challenges. Teams must be sent on a field trip for the
+collection of data through imaging devices. It is fact that agricultural products are based
+on time series analysis which means a normal crop changes in size and shape at regular
+points in time. This change can be categorized from sprout stage to ripening stage. From
+the data collection perspective, it is difficult to collect the images of the crop at every
+stage and cycle of growth. To overcome this problem, it is feasible to use deep learning
+algorithms for the generation of the image data which comes from similar data distribution
+of crop.
+
+
+<p align="center">
+  <img align="center" src="Images/FrontPic_Final.pngS" width="300" height="200">
+</p>
