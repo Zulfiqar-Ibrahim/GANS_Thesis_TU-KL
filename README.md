@@ -36,4 +36,37 @@ We have the cropped images which fulfill our demands.
   <img align="center" src="Images/1_aufnahme1_croped_bl_1.jpg" width="300" height="300">
 </p>
 
+Precision farming has observed tremendous impacts in the field of agriculture. Farmers
+are trying to exploit these latest A.I and robotic based technologies for increase in the
+crop yield. Many companies are competing each other for autonomous vehicular robots
+which can automate many human-based tasks in the farming. An autonomous robotics
+systems need imaging data in order to train their models for various tasks like classification,
+segmentation and tracking. It is challenging to collect imaging data related to the crop
+life cycle. This work explores the use of Generative Adversarial Networks (GANs) for
+the generation of complex images related to the apple orchard field. The deep generative
+model must transfer the spatial information from training images to generated images.
+In the training images, there are two sets of images where one set is designed in unreal
+engine software and another set contains real images of the apple orchard field. A GAN is
+a combination of two neural networks which work in competition with each other for the
+construction of the images where one network’s gains are the other network’s losses. GANs
+are prone to instability in terms of training and evaluation due to their complexity and
+unsupervised learning nature. To subdue this instability, deep cyclic GANs are deployed to
+generate data from training images instead of from latent noise. This system automatically
+discovers patterns in the training data and emulates them for the generation of new data.
+This thesis explores the idea of using GANs for the generation of apple images from
+the apple orchard. These are very complex images with a varied distribution of data
+amongst them. For the first set of training data collection, two cameras are connected
+to an autonomous robot at two different angles that take images of apple trees. For the
+second set of training data , an unreal engine is used for the creation of farm like simulated
+environment in which 3D models of apple trees are placed to produce 3D images. In the
+generation of 3D data through the unreal engine, there is a leverage on the choice of any
+settings like lighting, weather, apple size, etc. This allows to map any data from any
+domain to the apple tree domain and also transfer the style from synthetic data to target
+data. The network is trained on a dataset which is the combination of synthetic data and
+real data. The view angle of synthetic images must be set similar to the original image’s
+view angle. This allows both datasets to be semantically similar. Several experiments
+have been performed with varied environments in synthetic data and an inference score
+is calculated for the evaluation of the final results. The trained model of cyclic GANs
+can generate countless images apple orchard which can be used as training data for other
+agriculture-based machine learning tasks
 
