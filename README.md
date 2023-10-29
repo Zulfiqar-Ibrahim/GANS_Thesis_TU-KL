@@ -90,3 +90,22 @@ a source domain that contains synthetic data designed in Unreal Engine
   <img align="center" src="Images/ScreenShot00002.png" width="350" height="300">
 </p>
 
+During the creation of 3D data, it was important to build and design a farm-like environment
+to achieve semantic similarity between real images and 3D images. This idea plays a very
+important role for the GAN to map the object from one domain to another domain while
+keeping the semantic nature of the domains intact. The first task is to create 3D models of
+Apple trees which have apples attached to them. The color of apple fruit can be changed
+from green to red and this thesis requires to transfer the style from one domain to another
+domain. for instance, the red color of 3D apple fruit must be mapped to the green apple
+of the real image using GAN. This would allow the creation of any kind of 3D data under
+any kind of environment. GAN needs a huge amount of data to generate the new synthetic
+data. Once the apple tree model is designed, 3D farm-like environment is created to place
+the models of an apple tree in the field. from fig, it can be observed that a 3D vehicle
+is created for the locomotion purpose to move between the fields of apple trees and the
+unreal engine’s built-in camera tool is utilized for the acquisition of images. These 3d
+models of cameras are placed on the vehicle at a similar angle as at a real autonomous
+robot vehicle.
+
+<p align="center">
+  <img align="center" src="Images/Ue_1_real_1.png" width="300" height="300">
+</p>
