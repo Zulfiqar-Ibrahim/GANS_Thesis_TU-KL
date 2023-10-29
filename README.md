@@ -107,5 +107,5 @@ models of cameras are placed on the vehicle at a similar angle as at a real auto
 robot vehicle.
 
 <p align="center">
-  <img align="center" src="Images/Ue_1_real_1.jpg" width="300" height="300">
+  <img align="center" src="Images/Ue_1_real_1.jpg" width="300" height="200">
 </p>
