@@ -79,14 +79,14 @@ contains real segmented images of apple trees and the second domain can be addre
 a source domain that contains synthetic data designed in Unreal Engine
 
 <p align="center">
-  <img align="center" src="Images/ScreenShot00000.png" width="300" height="300">
+  <img align="center" src="Images/ScreenShot00000.png" width="350" height="300">
 </p>
 
 <p align="center">
-  <img align="center" src="Images/ScreenShot00001.png" width="300" height="300">
+  <img align="center" src="Images/ScreenShot00001.png" width="350" height="300">
 </p>
 
 <p align="center">
-  <img align="center" src="Images/ScreenShot00002.png" width="300" height="300">
+  <img align="center" src="Images/ScreenShot00002.png" width="350" height="300">
 </p>
 
