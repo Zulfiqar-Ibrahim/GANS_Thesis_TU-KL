@@ -125,5 +125,5 @@ of crop.
 
 
 <p align="center">
-  <img align="center" src="Images/FrontPic_Final.pngS" width="300" height="200">
+  <img align="center" src="Images/FrontPic_Final.png" width="300" height="200">
 </p>
